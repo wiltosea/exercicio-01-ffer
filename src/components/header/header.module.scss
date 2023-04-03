@@ -1,0 +1,17 @@
+.header{
+  color: black;
+  display: flex;
+  justify-content: center;
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1120px;
+    width: 100%;
+    border: 1px solid black;
+    li{
+      list-style: none;
+      margin: 2em;
+    }
+  }
+}

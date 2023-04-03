@@ -1,0 +1,13 @@
+.container{
+  display: flex;
+  margin-bottom: 1em;
+  &:hover{
+    background-color: #f7f7f7;
+    transition: background-color 0.5s;
+  }
+  .content{
+    margin-left: 1rem;
+    h1{text-align: left;}
+    p{ text-align: left;}
+  }
+}
